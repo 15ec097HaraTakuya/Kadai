@@ -31,9 +31,9 @@ IMG2 = imresize(IMG,4,'box'); % 画像の拡大
   
 以降1/8から1/32まで繰り返し行う。  
 サンプリングの結果を図４～６に示す。
-![Alt text](MATLAB/kadai3/Nuko1.jpg)  
+![Alt text](MATLAB/kadai1/Nuko3.jpg)  
 図4　1/8サンプリング 
-![Alt text](MATLAB/kadai4/Nuko1.jpg)  
+![Alt text](MATLAB/kadai1/Nuko4.jpg)  
 図5　1/16サンプリング 
-![Alt text](MATLAB/kadai5/Nuko1.jpg)  
+![Alt text](MATLAB/kadai1/Nuko5.jpg)  
 図6　1/32サンプリング 
