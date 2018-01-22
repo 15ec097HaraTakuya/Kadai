@@ -26,4 +26,34 @@ pause;
   
 図2 二階調画像  
   
-## 4階調
+## 4階調  
+4階調画像作成のため次のコードを記述する。   
+  
+>> IMG3 = IMG>64;  
+>> IMG4 = IMG>128;  
+>> IMG5 = IMG>192;  
+>> IMG6 = IMG3 + IMG4 + IMG5;  
+>> imagesc(IMG6); colormap(gray); colorbar;  axis image;  
+  
+  
+4階調画像を図3に示す。  
+  
+図3 4階調画像  
+  
+## 8階調  
+同様に、8階調画像作成のため次のコードを記述する。 
+  
+IMG3 = IMG>32;  
+IMG4 = IMG>64;  
+IMG5 = IMG>96;  
+IMG6 = IMG>128;  
+IMG7 = IMG>160;  
+IMG8 = IMG>192;  
+IMG9 = IMG>224;  
+IMG10 = IMG3 + IMG4 + IMG5 + IMG6 + IMG7 + IMG8 + IMG9;  
+imagesc(IMG10); colormap(gray); colorbar;  axis image;  
+  
+8階調画像を図4に示す。  
+  
+  
+図4 8階調画像
