@@ -5,4 +5,4 @@
   
 IMG = imread();%画像をIMG変数に格納  
 image(IMG);%IMGを表示  
-![写真](http://keepingblog.net/github_images/flower_mini.jpg)
+![写真](https://github.com/15ec097HaraTakuya/Kadai/blob/master/Kimono.jpg)
