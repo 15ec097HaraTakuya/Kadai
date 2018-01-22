@@ -1,9 +1,9 @@
 # 課題2　階調数と疑似輪郭  
-ここでは使用画像Kimono.jpgの白黒画像に対し 
+ここでは使用画像Nuko.jpgの白黒画像に対し 
 ２階調，４階調，８階調の画像を生成する。  
 そのためまず、以下のコードを記述する。  
   
->> ORG = imread('Kimono.jpg');%画像をIMG変数に格納  
+>> ORG = imread('Nuko.jpg');%画像をIMG変数に格納  
 >> IMG = rgb2gray(ORG); colormap(gray); colorbar;  
 >> imagesc(IMG); axis image; % 画像の表示  
 >> pause; % 一時停止  
