@@ -7,7 +7,7 @@ ORG= rgb2gray(ORG);
 imagesc(ORG); colormap(gray); colorbar;  
 pause;  
   
-使用画像の白黒画像を図1に示す。  
+![Alt text](MATLAB/kadai6/Nuko1.jpg)  
 図1 白黒画像  
   
 ## 閾値128による二値化
@@ -16,7 +16,7 @@ pause;
 imagesc(IMG); colormap(gray); colorbar;  
 pause;  
   
-結果を図2に示す。  
+![Alt text](MATLAB/kadai6/Nuko2.jpg)    
 図2 閾値128による二値化  
   
 ## ディザー法による2値化  
@@ -24,5 +24,5 @@ pause;
 >> IMG = dither(ORG);  
 imagesc(IMG); colormap(gray); colorbar;  
   
-結果を図3に示す。  
+![Alt text](MATLAB/kadai6/Nuko3.jpg)    
 図3 ディザー法による2値化  
