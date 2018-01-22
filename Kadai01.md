@@ -7,4 +7,6 @@ IMG = imread();%画像をIMG変数に格納
 image(IMG);%IMGを表示  
 ここでは、次の縦533×800の画像を使う。  
 ![写真](https://github.com/15ec097HaraTakuya/Kadai/blob/master/Kimono.jpg)  
-図1　使用原画像  
+  
+図1　使用原画像
+原画像を1/2サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい。  
