@@ -3,10 +3,10 @@
 まず、MATLABに画像を読み込み表示する。  
 読み込み用にimread関数を、表示用にimage(sc)関数を用いて以下の様に記述する。  
   
-ORG = imread('Kimono.jpg');%画像をIMG変数に格納  
+ORG = imread('Nuko.jpg');%画像をIMG変数に格納  
 image(ORG);%IMGを表示  
   
-ここでは、次の縦533×800の画像Kimono.jpgを使う。  
+ここでは、次の800×533の画像Nuko.jpgを使う。  
 ![写真](https://github.com/15ec097HaraTakuya/Kadai/blob/master/Kimono.jpg)  
   
 図1　使用原画像  
@@ -23,8 +23,8 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 同様に原画像を1/4サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい。  
 よって次のように記述する。  　
   
-IMG = imresize(IMG2,0.5); % 画像の縮小  
-IMG2 = imresize(IMG,2,'box'); % 画像の拡大  
+IMG = imresize(IMG,0.5); % 画像の縮小  
+IMG2 = imresize(IMG,4,'box'); % 画像の拡大  
   
 1/4サンプリングの結果を図３に示す。  
 
@@ -32,10 +32,5 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
   
 図3　1/4サンプリング  
   
-以降1/8から1/32サンプリングは、  
-  
-IMG = imresize(IMG2,0.5); % 画像の縮小  
-IMG2 = imresize(IMG,2,'box'); % 画像の拡大  
-  
-を繰り返す。  
+以降1/8から1/32まで繰り返し行う。  
 サンプリングの結果を図４～６に示す。
