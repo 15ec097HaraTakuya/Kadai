@@ -7,6 +7,7 @@
 >> ORG= rgb2gray(ORG);  
 >> imagesc(ORG); colormap(gray); colorbar;  
 >> pause;  
+  
 ![Alt text](MATLAB/kadai3/Nuko1.jpg)  
 図1 白黒画像  
   
