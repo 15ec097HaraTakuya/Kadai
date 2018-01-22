@@ -19,11 +19,10 @@
 >> IMG2 = IMG>128;  
 >> imagesc(IMG2); colormap(gray); colorbar;  axis image;  
 >> pause;  
-  
+  
 2階調画像を図2に示す。  
   
 
-  
 図2 二階調画像  
   
 ## 4階調  
