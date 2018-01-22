@@ -6,9 +6,8 @@
 ORG = imread('Nuko.jpg');%画像をIMG変数に格納  
 image(ORG);%IMGを表示  
   
-ここでは、次の800×533の画像Nuko.jpgを使う。  
-![写真](https://github.com/15ec097HaraTakuya/Kadai/blob/master/Kimono.jpg)  
-  
+ここでは、次の800×533の画像Nuko.jpgを使う。  
+  
 図1　使用原画像  
 原画像を1/2サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい。  
 よって、imresize関数と「box」オプションを用いて次のように記述する。  
