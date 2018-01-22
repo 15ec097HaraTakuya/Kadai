@@ -9,8 +9,7 @@
 >> pause; % 一時停止  
   
 使用原画像の白黒画像を図1に示す。  
-  
-  
+![Alt text](MATLAB/kadai2/Nuko1.jpg)  
 図1 白黒画像  
   
 ## 2階調  
@@ -21,8 +20,7 @@
 >> pause;  
   
 2階調画像を図2に示す。  
-  
-
+![Alt text](MATLAB/kadai2/Nuko2.jpg)   
 図2 二階調画像  
   
 ## 4階調  
@@ -33,10 +31,9 @@
 >> IMG5 = IMG>192;  
 >> IMG6 = IMG3 + IMG4 + IMG5;  
 >> imagesc(IMG6); colormap(gray); colorbar;  axis image;  
-  
-  
+   
 4階調画像を図3に示す。  
-  
+![Alt text](MATLAB/kadai2/Nuko3.jpg)   
 図3 4階調画像  
   
 ## 8階調  
@@ -53,6 +50,5 @@
 >> imagesc(IMG10); colormap(gray); colorbar;  axis image;  
   
 8階調画像を図4に示す。  
-  
-  
+![Alt text](MATLAB/kadai2/Nuko4.jpg)  
 図4 8階調画像
