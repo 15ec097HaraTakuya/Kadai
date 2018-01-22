@@ -7,7 +7,7 @@
 >> IMG = rgb2gray(ORG); colormap(gray); colorbar;  
 >> imagesc(IMG); axis image; % 画像の表示  
 >> pause; % 一時停止  
-  
+  
 使用原画像のグレースケールを図1に示す。  
   
   
