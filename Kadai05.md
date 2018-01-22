@@ -4,10 +4,10 @@
   
 >> ORG = imread('Nuko.jpg');  
 >> ORG= rgb2gray(ORG);  
->> imagesc(ORG); colormap(gray); colorbar; % 画像の表示  
+>> imagesc(ORG); colormap(gray); colorbar;   
 >> pause;  
   
-使用画像の白黒画像を図1に示す。  
+![Alt text](MATLAB/kadai5/Nuko1.jpg)  
 図1 白黒画像  
   
 白黒画像に対し、判別分析法を適用させるため、次のコードを記述する。
@@ -37,4 +37,5 @@ imagesc(IMG); colormap(gray); colorbar;
 pause;  
   
 結果を図2に示す。  
+![Alt text](MATLAB/kadai5/Nuko2.jpg)  
 図2 判別分析法
