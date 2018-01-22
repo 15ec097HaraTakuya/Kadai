@@ -34,7 +34,7 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
   
 以降1/8から1/32サンプリングは、  
   
-IMG = imresize(IMG2,0.5); % 画像の縮小  
+IMG = imresize(IMG2,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,2,'box'); % 画像の拡大  
   
 を繰り返す。  
