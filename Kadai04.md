@@ -3,7 +3,7 @@
   
 課題2同様、白黒画像を用いる為次のコードを記述する。  
   
->> ORG = imread('Kimono.jpg');  
+>> ORG = imread('Nuko.jpg');  
 >> ORG= rgb2gray(ORG);  
 >> imagesc(ORG); colormap(gray); colorbar; % 画像の表示  
 >> pause;  
